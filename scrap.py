@@ -33,6 +33,7 @@ for auto in autos:
 df1=pd.DataFrame({'modelo':acudesc,'precio':acupre})
 print(df1)
 df1.to_csv('ejemplo.csv', index=False, encoding='utf-8')
+#este es un comentario
 #df1.to_excel('D:/ejemplo.xlsx',sheet_name='carro',engine='openpyxl')
    # datos=pd.read_excel('D:/ejemplo.xlsx',index_col=0,engine='openpyxl')
 
